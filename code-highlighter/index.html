@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Code Highlighter Demos</title>
+		<link href='css/prism.css' rel='stylesheet'/>
+	<head>
+	<body>
+	<pre>
+		<code class="language-php">		function registerClipboard() {
+
+			var clip = new ClipboardJS(linkCopy, {
+				'text': function () {
+					return env.code;
+				}
+			});
+	
+			clip.on('success', function() {
+				if (document.body.createTextRange) { // ms
+					var range = document.body.createTextRange();
+					range.moveToElementText(env.element);
+					range.select();
+				} else if (window.getSelection) { // moz, opera, webkit
+					var selection = window.getSelection();
+					var range = document.createRange();
+					range.selectNodeContents(env.element);
+					selection.removeAllRanges();
+					selection.addRange(range);
+				}
+				linkCopy.textContent = 'Copied!';
+				resetText();
+			});
+			clip.on('error', function () {
+				linkCopy.textContent = 'Press Ctrl+C to copy';
+
+				resetText();
+			});
+		}</code>
+	</pre>
+
+		<script src='js/prism.js'></script>
+		<!--/Contact Button Widget-->
+	</body>
+</html>
