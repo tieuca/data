@@ -302,9 +302,8 @@ div.code-toolbar > .toolbar span:focus {
     border: 1px solid #ccc;
     color: #333;
 }
-div.code-toolbar > .toolbar a:before ,
-div.code-toolbar > .toolbar button:before ,
-div.code-toolbar > .toolbar span:before {
+
+div.code-toolbar > .toolbar button:before {
 	content: '';
 	display: inline-block;
 	width: 16px;
