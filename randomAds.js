@@ -1,5 +1,5 @@
 (function randomImg() {
-  var quotes = [
+  var tieuca = [
     {
       text: "https://www.vultr.com/?ref=6803172/",
       img:  "https://www.vultr.com/media/banners/banner_728x90.png/"
@@ -21,8 +21,8 @@
       img:  "https://affiliates.hostarmada.com/accounts/default1/q1yoab4x8oq/f7d001a9.gif/",
     },
   ];
-  var quote = quotes[Math.floor(Math.random() * quotes.length)];
-  document.getElementById("tieucaAds").href = quote.text;
-  document.getElementById("tieucaAdsImg").src = quote.img;
+  var tieC = tieuca[Math.floor(Math.random() * tieuca.length)];
+  document.getElementById("tieucaAds").href = tieC.text;
+  document.getElementById("tieucaAdsImg").src = tieC.img;
   
 })();
