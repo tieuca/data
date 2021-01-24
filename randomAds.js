@@ -1,3 +1,4 @@
+
 (function randomImg() {
   var quotes = [
     {
@@ -23,5 +24,7 @@
   ];
   var quote = quotes[Math.floor(Math.random() * quotes.length)];
   document.getElementById("quote").href = quote.text;
+
   document.getElementById("quoteimg").src = quote.img;
+
 })();
