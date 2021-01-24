@@ -1,24 +1,24 @@
 (function randomImg() {
   var quotes = [
     {
-      text: "https://codeprojects.org/_uLaNvBTx-FcGfHyDjXb0gtobzURizMHlxxylr5Cf3E/redirect1.html/",
-      img:  "https://codeprojects.org/_uLaNvBTx-FcGfHyDjXb0gtobzURizMHlxxylr5Cf3E/hunt-club-ad-version-1.jpg/"
+      text: "https://www.vultr.com/?ref=6803172/",
+      img:  "https://www.vultr.com/media/banners/banner_728x90.png/"
     },
     {
-      text: "https://codeprojects.org/_uLaNvBTx-FcGfHyDjXb0gtobzURizMHlxxylr5Cf3E/redirect1.html/",
-      img:  "https://codeprojects.org/_uLaNvBTx-FcGfHyDjXb0gtobzURizMHlxxylr5Cf3E/ad-2-bent-fork.jpg/",
+      text: "https://olacity.com/ref/478540905 https://olacity.com/ref/478540905/",
+      img:  "https://forum.olacity.com/img/banner-01.png/",
     },
     {
-      text: "https://codeprojects.org/_uLaNvBTx-FcGfHyDjXb0gtobzURizMHlxxylr5Cf3E/redirect1.html/",
-      img:  "https://codeprojects.org/_uLaNvBTx-FcGfHyDjXb0gtobzURizMHlxxylr5Cf3E/ad-2-bent-fork.jpg/",
+      text: "https://www.binance.com/vn/register?ref=43660035/",
+      img:  "https://cointek.net/wp-content/uploads/2020/08/binance-ban.gif/",
     },
     {
-      text: "https://roblox.com/",
-      img:  "https://codeprojects.org/_uLaNvBTx-FcGfHyDjXb0gtobzURizMHlxxylr5Cf3E/ad2.jpg/",
+      text: "https://ladipage.vn?ref=tieuca/",
+      img:  "https://i0.wp.com/s1.uphinh.org/2021/01/15/782x90.png/",
     },
     {
-      text: "https://roblox.com/",
-      img:  "https://codeprojects.org/_uLaNvBTx-FcGfHyDjXb0gtobzURizMHlxxylr5Cf3E/ad2.jpg/",
+      text: "https://affiliates.hostarmada.com/scripts/q1yoac4x8oq?a_aid=tieuca&amp;a_bid=f7d001a9/",
+      img:  "https://affiliates.hostarmada.com/accounts/default1/q1yoab4x8oq/f7d001a9.gif/",
     },
   ];
   var quote = quotes[Math.floor(Math.random() * quotes.length)];
